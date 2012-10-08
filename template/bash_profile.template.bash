@@ -12,7 +12,7 @@ export EDITOR="/usr/bin/vim "
 export GIT_EDITOR='/usr/bin/vim'
 
 # Set the path nginx
-export NGINX_PATH='/opt/nginx'
+export NGINX_PATH='/usr/local/sbin/nginx'
 
 # Don't check mail when opening terminal.
 unset MAILCHECK
@@ -30,7 +30,7 @@ export PATH=$PATH:"$HOME/.rbenv/bin"
 eval "$(rbenv init -)"
 
 # aliases
-alias goapi="cd $HOME/Documents/AbsolutePerformance"
+alias goapi="cd $HOME/Documents/api"
 alias godev="cd $HOME/dev"
 alias be="bundle exec"
 alias clear_rails="be rake db:drop db:create db:migrate register"
