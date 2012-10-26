@@ -40,10 +40,8 @@ alias g='git'
 export PATH='/usr/local/share/npm/bin':$PATH
 export PATH='/usr/local/bin':'/usr/local/sbin':$PATH
 
-# Some API Keys
-export ECHO_NEST_API_KEY='SZYDXPTGUUHCPSOYV'
-export CAMPFIRE_ROOM='259674'
-export CAMPFIRE_TOKEN='71828e714ed08a06330ebf62f273ba4ed549d395'
+# Put API Keys here:
+
 
 # Set vcprompt executable path for scm advance info in prompt (demula theme)
 # https://github.com/xvzf/vcprompt
