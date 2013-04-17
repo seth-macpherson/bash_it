@@ -2,10 +2,10 @@
 
 # List directory contents
 alias sl=ls
-alias ls='ls -G'        # Compact view, show colors
+alias ls='ls -aG'        # Show Detail by default, show colors
 alias la='ls -AF'       # Compact view, show hidden
-alias ll='ls -al'
-alias l='ls -a'
+alias ll='ls -a'
+alias l='ls -al'
 alias l1='ls -1'
 
 alias _="sudo"
@@ -35,7 +35,7 @@ alias rb="ruby"
 
 # Pianobar can be found here: http://github.com/PromyLOPh/pianobar/
 
-alias piano="pianobar"
+# alias piano="pianobar"
 
 alias ..='cd ..'         # Go up one directory
 alias ...='cd ../..'     # Go up two directories
